@@ -20,7 +20,7 @@
         { "kind": "folder", "path": "Shared", "target-membership": [ "Glowy", "GlowyControlExtension", "GlowyHelper" ] },
         { "path": "SetupModel.swift", "target-membership": [ "Glowy/compile-sources" ] },
         { "path": "SetupView.swift", "target-membership": [ "Glowy/compile-sources" ] },
-        { "path": "ca.martinstric.Glowy.helper.plist", "target-membership": [ { "build-phase": "Glowy/copy/Embed Launch Daemon" } ] },
+        { "path": "ca.martinstric.Glowy.helper.plist", "target-membership": [ "Glowy/copy/Embed Launch Daemon" ] },
       ],
     }, {
       "kind": "folder",
@@ -73,13 +73,11 @@
           "kind": "copy",
           "name": "Embed Foundation Extensions",
           "bundle-base-path": "plugins-directory",
-        },
-        {
+        }, {
           "kind": "copy",
           "name": "Embed Helper",
           "bundle-base-path": "executables-directory",
-        },
-        {
+        }, {
           "kind": "copy",
           "name": "Embed Launch Daemon",
           "bundle-base-path": "contents-directory",
@@ -91,7 +89,6 @@
         "ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME": "AccentColor",
         "CODE_SIGN_STYLE": "Automatic",
         "CURRENT_PROJECT_VERSION": "1",
-        "DEVELOPMENT_TEAM": "88XU89TSNP",
         "ENABLE_APP_SANDBOX": "NO",
         "ENABLE_HARDENED_RUNTIME": "YES",
         "ENABLE_PREVIEWS": "YES",
@@ -141,7 +138,6 @@
         "CODE_SIGN_ENTITLEMENTS": "GlowyControl/GlowyControl.entitlements",
         "CODE_SIGN_STYLE": "Automatic",
         "CURRENT_PROJECT_VERSION": "1",
-        "DEVELOPMENT_TEAM": "88XU89TSNP",
         "ENABLE_APP_SANDBOX": "YES",
         "ENABLE_HARDENED_RUNTIME": "YES",
         "GENERATE_INFOPLIST_FILE": "YES",
@@ -191,7 +187,6 @@
       ],
       "build-settings": {
         "CODE_SIGN_STYLE": "Automatic",
-        "DEVELOPMENT_TEAM": "88XU89TSNP",
         "ENABLE_HARDENED_RUNTIME": "YES",
         "MACOSX_DEPLOYMENT_TARGET": "27.2",
         "PRODUCT_BUNDLE_IDENTIFIER": "ca.martinstric.Glowy.helper",
@@ -238,6 +233,7 @@
     "DEAD_CODE_STRIPPING": "YES",
     "DEBUG_INFORMATION_FORMAT[config=Debug]": "dwarf",
     "DEBUG_INFORMATION_FORMAT[config=Release]": "dwarf-with-dsym",
+    "DEVELOPMENT_TEAM": "88XU89TSNP",
     "DRIVERKIT_DEPLOYMENT_TARGET": "27.3",
     "ENABLE_NS_ASSERTIONS[config=Release]": "NO",
     "ENABLE_STRICT_OBJC_MSGSEND": "YES",
@@ -273,6 +269,6 @@
     "WATCHOS_DEPLOYMENT_TARGET": "27.3",
     "XROS_DEPLOYMENT_TARGET": "27.3",
   },
-  "last-upgrade": "27.0",
+  "last-upgrade": "27.3",
   "last-swift-update": "27.3",
 }
