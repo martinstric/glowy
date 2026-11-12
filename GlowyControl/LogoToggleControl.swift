@@ -4,6 +4,7 @@ import WidgetKit
 
 /// The Control Center toggle for the glowing Apple logo.
 struct LogoToggleControl: ControlWidget {
+    
     var body: some ControlWidgetConfiguration {
         StaticControlConfiguration(kind: GlowyHelper.controlKind, provider: Provider()) { isOn in
             ControlWidgetToggle("Apple Logo", isOn: isOn, action: SetLogoIntent()) { isOn in
@@ -17,6 +18,7 @@ struct LogoToggleControl: ControlWidget {
 }
 
 extension LogoToggleControl {
+    
     struct Provider: ControlValueProvider {
         var previewValue: Bool { true }
 
@@ -29,6 +31,7 @@ extension LogoToggleControl {
 
 /// Performed by the toggle. Runs in the extension and asks the root helper to apply the change.
 struct SetLogoIntent: SetValueIntent {
+    
     static let title: LocalizedStringResource = "Set Apple Logo"
 
     @Parameter(title: "Logo is on")

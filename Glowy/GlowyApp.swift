@@ -2,6 +2,7 @@ import AppKit
 import SwiftUI
 
 @main struct GlowyApp: App {
+    
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
 
     var body: some Scene {
@@ -16,6 +17,7 @@ import SwiftUI
 }
 
 final class AppDelegate: NSObject, NSApplicationDelegate {
+    
     func applicationDidFinishLaunching(_ notification: Notification) {
         // Agent apps don't come to the front on their own.
         NSApp.activate()

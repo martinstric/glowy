@@ -3,6 +3,7 @@ import SwiftUI
 
 /// First-launch (and every-launch) window: explains the two setup steps and shows live status.
 struct SetupView: View {
+    
     @State private var model = SetupModel()
     @State private var isConfirmingUninstall = false
 

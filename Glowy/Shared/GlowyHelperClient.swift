@@ -5,6 +5,7 @@ import Foundation
 /// Each call opens a fresh connection; launchd starts the helper on demand and it exits when idle,
 /// so there is no benefit to keeping a connection alive.
 struct GlowyHelperClient: Sendable {
+    
     enum ClientError: LocalizedError {
         case invalidProxy
 
@@ -58,6 +59,7 @@ struct GlowyHelperClient: Sendable {
                 continuation.resume(throwing: ClientError.invalidProxy)
                 return
             }
+            
             body(helper, continuation)
         }
     }

@@ -2,6 +2,7 @@ import Foundation
 
 /// Identifiers shared by the app, the Control Center extension, and the privileged helper.
 enum GlowyHelper {
+    
     /// Mach service name advertised by the helper's launchd property list.
     static let machServiceName = "ca.martinstric.Glowy.helper"
 
@@ -20,6 +21,7 @@ enum GlowyHelper {
 /// The helper runs as root, so these calls map directly onto Apple's documented commands
 /// without needing `sudo` in the caller.
 @objc protocol GlowyHelperProtocol {
+    
     /// Turns the glowing Apple logo on (`defaults delete`) or off (`defaults write ... -int 0`).
     func setLogoEnabled(_ enabled: Bool, reply: @escaping @Sendable (NSError?) -> Void)
 

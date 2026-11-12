@@ -1,7 +1,8 @@
 import Foundation
 
-/// Accepts XPC connections, but only from Glowy's own app and Control Center extension.
+/// Accepts XPC connections, but only from Glowy's own app and Control Centre extension.
 final class ListenerDelegate: NSObject, NSXPCListenerDelegate {
+    
     /// Peer must be signed by this team and be one of Glowy's two bundles. The parentheses matter:
     /// without them the trailing `or` would accept any process using that identifier.
     private static let codeSigningRequirement = """
@@ -21,6 +22,7 @@ final class ListenerDelegate: NSObject, NSXPCListenerDelegate {
 /// Runs Apple's documented `defaults` commands for the glowing logo. Because this process is root,
 /// they are the exact commands from the documentation minus `sudo`.
 final class LogoService: NSObject, GlowyHelperProtocol {
+    
     private static let domain = "com.apple.CoreBrightness"
     private static let key = "LEBacklightMode"
 
@@ -29,6 +31,7 @@ final class LogoService: NSObject, GlowyHelperProtocol {
             if enabled {
                 // `defaults delete com.apple.CoreBrightness LEBacklightMode`
                 let result = try Self.runDefaults(["delete", Self.domain, Self.key])
+                
                 // `delete` fails when the key is already absent, which already means "enabled".
                 if result.status != 0, try Self.readRawValue() != nil {
                     throw Self.error("Could not restore the default logo setting.", output: result.output)

@@ -16,29 +16,55 @@
       "path": "Glowy",
       "children": [
         { "path": "GlowyApp.swift", "target-membership": [ "Glowy/compile-sources" ] },
+        {
+          "kind": "group",
+          "path": "Setup",
+          "children": [
+            { "path": "SetupModel.swift", "target-membership": [ "Glowy/compile-sources" ] },
+            { "path": "SetupView.swift", "target-membership": [ "Glowy/compile-sources" ] },
+          ],
+        }, {
+          "kind": "group",
+          "path": "Shared",
+          "children": [
+            {
+              "path": "GlowyHelperClient.swift",
+              "target-membership": [
+                "Glowy/compile-sources",
+                "GlowyControlExtension/compile-sources",
+                "GlowyHelper/compile-sources",
+              ],
+            }, {
+              "path": "GlowyHelperProtocol.swift",
+              "target-membership": [
+                "Glowy/compile-sources",
+                "GlowyControlExtension/compile-sources",
+                "GlowyHelper/compile-sources",
+              ],
+            },
+          ],
+        },
         { "path": "Assets.xcassets", "target-membership": [ "Glowy/resources" ] },
-        { "kind": "folder", "path": "Shared", "target-membership": [ "Glowy", "GlowyControlExtension", "GlowyHelper" ] },
-        { "path": "SetupModel.swift", "target-membership": [ "Glowy/compile-sources" ] },
-        { "path": "SetupView.swift", "target-membership": [ "Glowy/compile-sources" ] },
         { "path": "ca.martinstric.Glowy.helper.plist", "target-membership": [ "Glowy/copy/Embed Launch Daemon" ] },
       ],
     }, {
-      "kind": "folder",
+      "kind": "group",
       "path": "GlowyControl",
-      "target-membership": [
-        "GlowyControlExtension",
+      "children": [
+        { "path": "GlowyControlBundle.swift", "target-membership": [ "GlowyControlExtension/compile-sources" ] },
+        { "path": "LogoToggleControl.swift", "target-membership": [ "GlowyControlExtension/compile-sources" ] },
+        { "path": "Assets.xcassets", "target-membership": [ "GlowyControlExtension/resources" ] },
+        { "path": "Info.plist" },
+        { "path": "GlowyControl.entitlements" },
       ],
-      "membership-exceptions": [
-        {
-          "target": "GlowyControlExtension",
-          "exclusions": [
-            "Info.plist",
-          ],
-        },
+    }, {
+      "kind": "group",
+      "path": "GlowyHelper",
+      "children": [
+        { "path": "main.swift", "target-membership": [ "GlowyHelper/compile-sources" ] },
+        { "path": "LogoService.swift", "target-membership": [ "GlowyHelper/compile-sources" ] },
       ],
-    },
-    { "kind": "folder", "path": "GlowyHelper", "target-membership": [ "GlowyHelper" ] },
-    {
+    }, {
       "kind": "group",
       "name": "Frameworks",
       "children": [

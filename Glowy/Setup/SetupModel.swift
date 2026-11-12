@@ -6,6 +6,7 @@ import WidgetKit
 /// Drives the setup window: helper registration, Control Center status, and the logo state.
 @Observable
 final class SetupModel {
+    
     var helperStatus: SMAppService.Status = .notRegistered
     var controlIsAdded = false
     /// `nil` until the helper has been approved and reports the current state.
@@ -25,8 +26,7 @@ final class SetupModel {
     func registerHelper() {
         do {
             try service.register()
-        } catch let error as NSError where error.code == kSMErrorAlreadyRegistered
-            || error.code == kSMErrorLaunchDeniedByUser {
+        } catch let error as NSError where error.code == kSMErrorAlreadyRegistered || error.code == kSMErrorLaunchDeniedByUser {
             // Already registered, or waiting on the user in System Settings. `status` reflects both.
         } catch {
             errorMessage = "Couldn't register the helper: \(error.localizedDescription)"
@@ -56,12 +56,14 @@ final class SetupModel {
             logoIsOn = nil
             return
         }
+        
         logoIsOn = try? await client.isLogoEnabled()
     }
 
     func setLogo(on: Bool) async {
         isBusy = true
         defer { isBusy = false }
+        
         do {
             try await client.setLogoEnabled(on)
             logoIsOn = on
