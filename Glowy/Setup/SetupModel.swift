@@ -1,3 +1,10 @@
+//
+//  SetupModel.swift
+//  Glowy
+//
+//  Created by Martin Stric on 2026-11-10.
+//
+
 import AppKit
 import Observation
 import ServiceManagement

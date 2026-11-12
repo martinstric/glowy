@@ -1,3 +1,10 @@
+//
+//  LogoToggleControl.swift
+//  Glowy
+//
+//  Created by Martin Stric on 2026-11-10.
+//
+
 import AppIntents
 import SwiftUI
 import WidgetKit

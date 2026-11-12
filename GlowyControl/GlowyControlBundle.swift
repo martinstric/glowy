@@ -1,3 +1,10 @@
+//
+//  GlowyControlBundle.swift
+//  Glowy
+//
+//  Created by Martin Stric on 2026-11-10.
+//
+
 import SwiftUI
 import WidgetKit
 

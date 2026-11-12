@@ -1,3 +1,10 @@
+//
+//  GlowyHelperProtocol.swift
+//  Glowy
+//
+//  Created by Martin Stric on 2026-11-10.
+//
+
 import Foundation
 
 /// Identifiers shared by the app, the Control Center extension, and the privileged helper.

@@ -1,3 +1,10 @@
+//
+//  GlowyHelperClient.swift
+//  Glowy
+//
+//  Created by Martin Stric on 2026-11-10.
+//
+
 import Foundation
 
 /// Async client for the privileged helper. Used by both the app and the Control Center extension.

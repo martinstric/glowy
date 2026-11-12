@@ -1,3 +1,10 @@
+//
+//  LogoService.swift
+//  Glowy
+//
+//  Created by Martin Stric on 2026-11-10.
+//
+
 import Foundation
 
 /// Accepts XPC connections, but only from Glowy's own app and Control Centre extension.

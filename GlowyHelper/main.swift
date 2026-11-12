@@ -1,3 +1,10 @@
+//
+//  main.swift
+//  Glowy
+//
+//  Created by Martin Stric on 2026-11-10.
+//
+
 import Foundation
 
 // GlowyHelper is a LaunchDaemon embedded in Glowy.app and registered with SMAppService.
