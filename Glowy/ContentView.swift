@@ -20,8 +20,10 @@ struct ContentView: View {
                 FirstLaunchView {
                     isFirstLaunch = false
                 }
+                .transition(.blurReplace.animation(.snappy))
             } else {
                 SetupView()
+                    .transition(.blurReplace.animation(.snappy))
             }
         }
     }

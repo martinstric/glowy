@@ -31,6 +31,7 @@
           "path": "Helpers",
           "children": [
             { "path": "Environment+Animating.swift", "target-membership": [ "Glowy/compile-sources" ] },
+            { "path": "GlowyGlassButtonStyle.swift", "target-membership": [ "Glowy/compile-sources" ] },
             { "path": "WindowHelpers.swift", "target-membership": [ "Glowy/compile-sources" ] },
             { "path": "WindowPreview.swift", "target-membership": [ "Glowy/compile-sources" ] },
           ],
@@ -56,6 +57,7 @@
           ],
         },
         { "path": "Assets.xcassets", "target-membership": [ "Glowy/resources" ] },
+        { "path": "AppIcon.icon", "target-membership": [ "Glowy/resources" ] },
         { "path": "ca.martinstric.Glowy.helper.plist", "target-membership": [ "Glowy/copy/Embed Launch Daemon" ] },
       ],
     }, {

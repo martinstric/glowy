@@ -17,12 +17,13 @@ struct FirstLaunchView: View {
         VStack(spacing: 24) {
             // Header
             Image(systemName: "apple.logo")
-                .font(.system(size: 80))
+                .font(.system(size: 108))
                 .foregroundStyle(isLogoGlowing ? .primary : .quaternary)
                 .shadow(color: .primary.opacity(isLogoGlowing ? 0.67 : 0), radius: isLogoGlowing ? 12 : 0)
                 .pointerStyle(.link)
-                .padding(.vertical, 24)
                 .onTapGesture(perform: toggleLogoGlowing)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .padding(.bottom, 16)
                 .onAppear {
                     setLogoGlowing(true, delay: 0.5)
                 }
@@ -55,54 +56,6 @@ struct FirstLaunchView: View {
     
     private func toggleLogoGlowing() {
         setLogoGlowing(!isLogoGlowing)
-    }
-}
-
-struct GlowyGlassButtonStyle: ButtonStyle {
-    
-    @Environment(\.buttonSizing) private var buttonSizing
-    @Environment(\.controlSize) private var controlSize
-    @Environment(\.isEnabled) private var isEnabled
-    
-    var isProminent: Bool
-    
-    private var padding: EdgeInsets {
-        switch controlSize {
-        case .mini:
-            EdgeInsets(top: 1, leading: 3, bottom: 1, trailing: 3)
-        case .small:
-            EdgeInsets(top: 2, leading: 5, bottom: 2, trailing: 5)
-        case .large:
-            EdgeInsets(top: 8, leading: 18, bottom: 8, trailing: 18)
-        case .extraLarge:
-            EdgeInsets(top: 10, leading: 24, bottom: 10, trailing: 24)
-        default:
-            EdgeInsets(top: 5, leading: 14, bottom: 5, trailing: 14)
-        }
-    }
-    
-    private var glass: Glass {
-        isProminent ? .regular.tint(.accentColor) : .regular
-    }
-    
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .frame(maxWidth: buttonSizing == .flexible ? .infinity : nil)
-            .padding(padding)
-            .glassEffect(glass.interactive(isEnabled), in: .capsule)
-            .contentShape(.capsule)
-            .pointerStyle(.link)
-    }
-}
-
-extension ButtonStyle where Self == GlowyGlassButtonStyle {
-    
-    static var glowyGlass: GlowyGlassButtonStyle {
-        GlowyGlassButtonStyle(isProminent: false)
-    }
-    
-    static var glowyGlassProminent: GlowyGlassButtonStyle {
-        GlowyGlassButtonStyle(isProminent: true)
     }
 }
 
