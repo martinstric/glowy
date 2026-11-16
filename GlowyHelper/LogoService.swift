@@ -50,6 +50,7 @@ final class LogoService: NSObject, GlowyHelperProtocol {
                     throw Self.error("Could not turn the logo off.", output: result.output)
                 }
             }
+            
             reply(nil)
         } catch {
             reply(error as NSError)

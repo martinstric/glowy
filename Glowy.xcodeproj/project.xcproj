@@ -15,13 +15,24 @@
       "kind": "group",
       "path": "Glowy",
       "children": [
+        { "path": "Info.plist" },
         { "path": "GlowyApp.swift", "target-membership": [ "Glowy/compile-sources" ] },
+        { "path": "SetupModel.swift", "target-membership": [ "Glowy/compile-sources" ] },
+        { "path": "ContentView.swift", "target-membership": [ "Glowy/compile-sources" ] },
         {
           "kind": "group",
-          "path": "Setup",
+          "path": "View",
           "children": [
-            { "path": "SetupModel.swift", "target-membership": [ "Glowy/compile-sources" ] },
+            { "path": "FirstLaunchView.swift", "target-membership": [ "Glowy/compile-sources" ] },
             { "path": "SetupView.swift", "target-membership": [ "Glowy/compile-sources" ] },
+          ],
+        }, {
+          "kind": "group",
+          "path": "Helpers",
+          "children": [
+            { "path": "Environment+Animating.swift", "target-membership": [ "Glowy/compile-sources" ] },
+            { "path": "WindowHelpers.swift", "target-membership": [ "Glowy/compile-sources" ] },
+            { "path": "WindowPreview.swift", "target-membership": [ "Glowy/compile-sources" ] },
           ],
         }, {
           "kind": "group",
@@ -119,8 +130,8 @@
         "ENABLE_HARDENED_RUNTIME": "YES",
         "ENABLE_PREVIEWS": "YES",
         "GENERATE_INFOPLIST_FILE": "YES",
+        "INFOPLIST_FILE": "Glowy/Info.plist",
         "INFOPLIST_KEY_LSApplicationCategoryType": "public.app-category.utilities",
-        "INFOPLIST_KEY_LSUIElement": "YES",
         "INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]": "YES",
         "INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]": "YES",
         "INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]": "YES",

@@ -6,13 +6,29 @@
 //
 
 import AppKit
-import Observation
 import ServiceManagement
 import WidgetKit
 
-/// Drives the setup window: helper registration, Control Center status, and the logo state.
+// MARK: State
+
+enum SetupStep: CaseIterable, Hashable {
+    case loginItem, controlCenter, done
+}
+
+// MARK: AppModel
+
 @Observable
 final class SetupModel {
+    
+    var step: SetupStep {
+        if !helperIsEnabled {
+            .loginItem
+        } else if !controlIsAdded {
+            .controlCenter
+        } else {
+            .done
+        }
+    }
     
     var helperStatus: SMAppService.Status = .notRegistered
     var controlIsAdded = false
@@ -38,6 +54,7 @@ final class SetupModel {
         } catch {
             errorMessage = "Couldn't register the helper: \(error.localizedDescription)"
         }
+        
         refreshHelperStatus()
     }
 
