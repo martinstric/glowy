@@ -47,6 +47,12 @@
             "value" : "GlowyControl"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControl"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -59,7 +65,37 @@
             "value" : "GlowyControl"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControl"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControl"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControl"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControl"
+          }
+        },
         "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControl"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "GlowyControl"
@@ -125,6 +161,12 @@
             "value" : "GlowyControlExtension"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControlExtension"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -137,7 +179,37 @@
             "value" : "GlowyControlExtension"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControlExtension"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControlExtension"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControlExtension"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControlExtension"
+          }
+        },
         "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "GlowyControlExtension"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "GlowyControlExtension"

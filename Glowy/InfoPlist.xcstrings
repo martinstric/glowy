@@ -47,6 +47,12 @@
             "value" : "Glowy"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -59,7 +65,37 @@
             "value" : "Glowy"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
         "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "Glowy"

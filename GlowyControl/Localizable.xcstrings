@@ -1,79 +1,111 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Apple Logo" : {
-      "extractionState" : "stale",
+    "Logo Glow" : {
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "شعار Apple"
+            "value" : "توهج الشعار"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "Apple-Logo"
+            "value" : "Logo-Leuchten"
           }
         },
         "en-CA" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "Apple Logo"
+            "value" : "Logo Glow"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "Logotipo de Apple"
+            "value" : "Brillo del logotipo"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "Logo Apple"
+            "value" : "Logo lumineux"
           }
         },
         "fr-CA" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "Logo Apple"
+            "value" : "Logo lumineux"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo luminoso"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "Appleロゴ"
+            "value" : "ロゴの光"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "Apple 로고"
+            "value" : "로고 조명"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logoverlichting"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Podświetlenie logo"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Brilho do Logotipo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Подсветка логотипа"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "Logo Apple"
+            "value" : "Podsvietenie loga"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo Işığı"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "Apple标志"
+            "value" : "标志发光"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "machine_translated",
-            "value" : "Apple標誌"
+            "value" : "標誌發光"
           }
         }
       }
-    },
-    "Logo Glow" : {
-
     },
     "Logo is on" : {
       "localizations" : {
@@ -113,6 +145,12 @@
             "value" : "Logo allumé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo acceso"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -125,10 +163,40 @@
             "value" : "로고 켜짐"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo is aan"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo włączone"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logotipo ativado"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Логотип включен"
+          }
+        },
         "sk" : {
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "Logo je zapnuté"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo açık"
           }
         },
         "zh-Hans" : {
@@ -183,6 +251,12 @@
             "value" : "Désactivé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Spento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -195,10 +269,40 @@
             "value" : "끔"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Uit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Wyłączone"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Desativado"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Выключено"
+          }
+        },
         "sk" : {
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "Vypnuté"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Kapalı"
           }
         },
         "zh-Hans" : {
@@ -253,6 +357,12 @@
             "value" : "Activé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Acceso"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -265,10 +375,40 @@
             "value" : "켬"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Aan"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Włączone"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ativado"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Включено"
+          }
+        },
         "sk" : {
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "Zapnuté"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Açık"
           }
         },
         "zh-Hans" : {
@@ -323,6 +463,12 @@
             "value" : "Ouvrez Glowy pour terminer la configuration de son assistant."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Apri Glowy per completare la configurazione dell’helper."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -335,10 +481,40 @@
             "value" : "도우미 설정을 완료하려면 Glowy를 여세요."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Open Glowy om het instellen van de helper af te ronden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Otwórz Glowy, aby dokończyć konfigurację procesu pomocniczego."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Abra o Glowy para concluir a configuração do auxiliar."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Откройте Glowy, чтобы завершить настройку помощника."
+          }
+        },
         "sk" : {
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "Otvorte Glowy a dokončite nastavenie pomocného procesu."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Yardımcının kurulumunu tamamlamak için Glowy’yi açın."
           }
         },
         "zh-Hans" : {
@@ -393,6 +569,12 @@
             "value" : "Régler le logo Apple"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Imposta logo Apple"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -405,10 +587,40 @@
             "value" : "Apple 로고 설정"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Stel Apple logo in"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ustaw logo Apple"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Definir Logotipo da Apple"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Настроить логотип Apple"
+          }
+        },
         "sk" : {
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "Nastaviť logo Apple"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Apple Logosunu Ayarla"
           }
         },
         "zh-Hans" : {
@@ -463,6 +675,12 @@
             "value" : "Allumez ou éteignez le logo Apple lumineux."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Accendi o spegni il logo Apple luminoso."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "machine_translated",
@@ -475,10 +693,40 @@
             "value" : "빛나는 Apple 로고를 켜거나 끕니다."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Zet het oplichtende Apple logo aan of uit."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Włącz lub wyłącz świecące logo Apple."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ative ou desative o brilho do logotipo da Apple."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Включить или выключить светящийся логотип Apple."
+          }
+        },
         "sk" : {
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "Zapína alebo vypína svietiace logo Apple."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Parlayan Apple logosunu açar veya kapatır."
           }
         },
         "zh-Hans" : {
