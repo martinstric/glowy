@@ -28,7 +28,6 @@ import ServiceManagement
                 .safeAreaPadding([.horizontal, .bottom], 24)
                 .safeAreaPadding(.top, 16)
                 .frame(width: 320, height: 340)
-//                .preferredColorScheme(.dark)
                 .modifyWindow { window in
                     window.standardWindowButton(.miniaturizeButton)?.isHidden = true
                     window.standardWindowButton(.zoomButton)?.isHidden = true
@@ -38,23 +37,15 @@ import ServiceManagement
         .environment(\.openURL, openGlowyURLAction)
         .windowStyle(.hiddenTitleBar)
         .windowResizability(.contentSize)
+        #if DEBUG
         .commands {
             CommandGroup(after: .appSettings) {
-                Button("Reset Helper") {
-                    Task {
-                        do {
-                            try await SMAppService.daemon(plistName: GlowyHelper.plistName).unregister()
-                        } catch {
-                            print("Could not reset helper \(error)")
-                        }
-                    }
-                }
-                
-                Button("Show First Launch") {
+                Button("Show Welcome Screen") {
                     UserDefaults.standard.set(true, forKey: "firstLaunch")
                 }
             }
         }
+        #endif
     }
 }
 

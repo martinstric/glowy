@@ -2,6 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Apple Logo" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -70,6 +71,9 @@
           }
         }
       }
+    },
+    "Logo Glow" : {
+
     },
     "Logo is on" : {
       "localizations" : {

@@ -16,16 +16,30 @@ struct FirstLaunchView: View {
     var body: some View {
         VStack(spacing: 24) {
             // Header
-            Image(systemName: "apple.logo")
+//            Image(systemName: "apple.logo")
+//                .font(.system(size: 108))
+//                .foregroundStyle(isLogoGlowing ? .primary : .quaternary)
+//                .shadow(color: .white.opacity(isLogoGlowing ? 0.67 : 0), radius: isLogoGlowing ? 12 : 0)
+//                .pointerStyle(.link)
+//                .onTapGesture(perform: toggleLogoGlowing)
+//                .frame(maxWidth: .infinity, maxHeight: .infinity)
+//                .padding(.bottom, 16)
+//                .onAppear {
+//                    setLogoGlowing(true, delay: 0.5)
+//                }
+            
+            Image("glowy.laptop", variableValue: isLogoGlowing ? 1 : 0)
                 .font(.system(size: 108))
-                .foregroundStyle(isLogoGlowing ? .primary : .quaternary)
-                .shadow(color: .white.opacity(isLogoGlowing ? 0.67 : 0), radius: isLogoGlowing ? 12 : 0)
-                .pointerStyle(.link)
-                .onTapGesture(perform: toggleLogoGlowing)
+                .symbolVariableValueMode(.draw)
+                .symbolRenderingMode(.multicolor)
+                .animation(.smooth, value: isLogoGlowing)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .padding(.bottom, 16)
-                .onAppear {
-                    setLogoGlowing(true, delay: 0.5)
+                .task {
+                    try? await Task.sleep(for: .milliseconds(500))
+                    isLogoGlowing = true
+                }
+                .onTapGesture {
+                    isLogoGlowing.toggle()
                 }
             
             VStack(spacing: 4) {

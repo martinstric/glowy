@@ -561,76 +561,6 @@
         }
       }
     },
-    "Glowy will run in the background. Feel free to close the app." : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "سيعمل Glowy في الخلفية. يمكنك إغلاق التطبيق بكل اطمئنان."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Glowy läuft im Hintergrund weiter. Du kannst die App ruhig schließen."
-          }
-        },
-        "en-CA" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Glowy will run in the background. Feel free to close the app."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Glowy seguirá funcionando en segundo plano. Puedes cerrar la app tranquilamente."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Glowy continuera de fonctionner en arrière-plan. Vous pouvez fermer l’app en toute tranquillité."
-          }
-        },
-        "fr-CA" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Glowy continuera de fonctionner en arrière-plan. Vous pouvez fermer l’app sans crainte."
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Glowyはバックグラウンドで動作します。アプリは閉じても大丈夫です。"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Glowy는 백그라운드에서 실행됩니다. 앱을 닫아도 괜찮습니다."
-          }
-        },
-        "sk" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Glowy bude bežať na pozadí. Apku môžete pokojne zavrieť."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Glowy会在后台运行，你可以放心关闭App。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Glowy會在背景執行，你可以放心關閉App。"
-          }
-        }
-      }
-    },
     "Let Glowy run in the background" : {
       "localizations" : {
         "ar" : {
@@ -837,146 +767,6 @@
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "開啟「登入項目」"
-          }
-        }
-      }
-    },
-    "Reset Helper" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "إعادة تعيين الأداة المساعدة"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Hilfsprogramm zurücksetzen"
-          }
-        },
-        "en-CA" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Reset Helper"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Restablecer proceso auxiliar"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Réinitialiser l’assistant"
-          }
-        },
-        "fr-CA" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Réinitialiser l’assistant"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "ヘルパーをリセット"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "도우미 재설정"
-          }
-        },
-        "sk" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Resetovať pomocný proces"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "重置辅助程序"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "重置輔助程式"
-          }
-        }
-      }
-    },
-    "Show First Launch" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "عرض شاشة التشغيل الأول"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Ersten Start anzeigen"
-          }
-        },
-        "en-CA" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Show First Launch"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Mostrar primer inicio"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Afficher le premier lancement"
-          }
-        },
-        "fr-CA" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Afficher le premier lancement"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "初回起動画面を表示"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "첫 실행 화면 보기"
-          }
-        },
-        "sk" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "Zobraziť prvé spustenie"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "显示首次启动画面"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "machine_translated",
-            "value" : "顯示首次啟動畫面"
           }
         }
       }
@@ -1327,6 +1117,76 @@
           "stringUnit" : {
             "state" : "machine_translated",
             "value" : "歡迎使用Glowy"
+          }
+        }
+      }
+    },
+    "You may close this window." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "يمكنك إغلاق هذه النافذة الآن."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Dieses Fenster kann jetzt geschlossen werden."
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "You may close this window."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ya puedes cerrar esta ventana."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Vous pouvez fermer cette fenêtre."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Vous pouvez fermer cette fenêtre."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "このウインドウは閉じても構いません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "이 윈도우를 닫아도 됩니다."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Toto okno môžete zavrieť."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "现在可以关闭此窗口了。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "現在可以關閉此視窗了。"
           }
         }
       }

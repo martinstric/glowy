@@ -6,6 +6,7 @@
 //
 
 import AppIntents
+
 import SwiftUI
 import WidgetKit
 
@@ -14,12 +15,12 @@ struct LogoToggleControl: ControlWidget {
     
     var body: some ControlWidgetConfiguration {
         StaticControlConfiguration(kind: GlowyHelper.controlKind, provider: Provider()) { isOn in
-            ControlWidgetToggle("Apple Logo", isOn: isOn, action: SetLogoIntent()) { isOn in
-                Label(isOn ? "On" : "Off", systemImage: "apple.logo")
+            ControlWidgetToggle("Logo Glow", isOn: isOn, action: SetLogoIntent()) { isActive in
+                Label(isActive ? "On" : "Off", image: "glowy.laptop")
             }
             .tint(.black)
         }
-        .displayName("Apple Logo")
+        .displayName("Logo Glow")
         .description("Turn the glowing Apple logo on or off.")
     }
 }

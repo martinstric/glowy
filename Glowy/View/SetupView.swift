@@ -49,7 +49,6 @@ private struct SetupStepView<Content, ImageContent>: View where Content: View, I
     @Environment(\.isAnimating) private var isAnimating
     
     var title: LocalizedStringKey
-    var description: LocalizedStringKey
     @ViewBuilder var content: Content
     @ViewBuilder var image: ImageContent
     
@@ -58,6 +57,7 @@ private struct SetupStepView<Content, ImageContent>: View where Content: View, I
             ZStack {
                 image
                     .font(.system(size: 108))
+                    .lineHeight(.tight)
                     .contentTransition(.symbolEffect)
                     .transition(.symbolEffect)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -66,21 +66,25 @@ private struct SetupStepView<Content, ImageContent>: View where Content: View, I
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             
             VStack(spacing: 16) {
-                VStack(spacing: 4) {
-                    Text(title)
-                        .font(.title2)
-                        .fontWeight(.bold)
+                Group(subviews: content) { subviews in
+                    VStack(spacing: 4) {
+                        Text(title)
+                            .font(.title2)
+                            .fontWeight(.bold)
+                        
+                        if let description = subviews.first {
+                            description
+                                .foregroundStyle(.secondary)
+                        }
+                    }
                     
-                    Text(description)
-                        .foregroundStyle(.secondary)
-                        .lineLimit(2, reservesSpace: true)
+                    ForEach(subviews: subviews.dropFirst()) { subview in
+                        subview
+                    }
                 }
-                
-                content
             }
         }
         .multilineTextAlignment(.center)
-        .animation(.snappy, value: description)
     }
 }
 
@@ -116,9 +120,11 @@ private struct LoginItemSetupStepView: View {
     
     var body: some View {
         SetupStepView(
-            title: "Let Glowy run in the background",
-            description: description
+            title: "Let Glowy run in the background"
         ) {
+            Text(description)
+                .lineLimit(2, reservesSpace: true)
+            
             GlassEffectContainer {
                 if isRegisteringHelper {
                     Button("Open Login Items") {
@@ -141,6 +147,7 @@ private struct LoginItemSetupStepView: View {
         }
         .buttonSizing(.flexible)
         .controlSize(.extraLarge)
+        .animation(.smooth, value: description)
         .task {
             setup.refreshHelperStatus()
         }
@@ -156,10 +163,10 @@ private struct ControlCenterSetupStepView: View {
     
     var body: some View {
         SetupStepView(
-            title: "Add Glowy to Control Center",
-            description: "Open Control Center → Edit Controls → find Glowy."
+            title: "Add Glowy to Control Center"
         ) {
-            
+            Text("Open Control Center → Edit Controls → find Glowy.")
+                .fixedSize(horizontal: false, vertical: true)
         } image: {
             Image(systemName: "switch.2")
         }
@@ -177,9 +184,11 @@ private struct DoneSetupStepView: View {
     
     var body: some View {
         SetupStepView(
-            title: "You're all set",
-            description: "Glow on. Or not. That’s up to you."
+            title: "You're all set"
         ) {
+            Text("Glow on. Or not. That’s up to you.")
+                .fixedSize(horizontal: false, vertical: true)
+            
             VStack(spacing: 16) {
                 let isAppLogoOn = Binding {
                     setup.logoIsOn ?? false
@@ -198,27 +207,27 @@ private struct DoneSetupStepView: View {
                 .padding(.horizontal, 14)
                 .padding(.vertical, 8)
                 .background(.quaternary, in: .rect(cornerRadius: 14))
-                .padding(.top, -16)
                 
                 HStack(spacing: 0) {
-                    Text("Glowy will run in the background. Feel free to close the app.")
+                    Text("You may close this window.")
                         .font(.caption)
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.leading)
                         .padding(.leading, 14)
-                    Spacer(minLength: 16)
+                    Spacer(minLength: 12)
                     Button("Uninstall") {
                         isConfirmingUninstall = true
                     }
                     .buttonStyle(.glowyGlass)
                 }
+                .fixedSize(horizontal: false, vertical: true)
             }
         } image: {
             Image(systemName: "checkmark")
                 .foregroundStyle(.green)
                 .symbolVariant(.circle.fill)
         }
-        .confirmationDialog("Uninstall Glowy?", isPresented: $isConfirmingUninstall) {
+        .alert("Uninstall Glowy?", isPresented: $isConfirmingUninstall) {
             Button("Uninstall", role: .destructive) {
                 Task {
                     await setup.uninstall()

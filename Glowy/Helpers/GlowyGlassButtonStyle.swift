@@ -40,6 +40,7 @@ struct GlowyGlassButtonStyle: ButtonStyle {
             .frame(maxWidth: buttonSizing == .flexible ? .infinity : nil)
             .padding(padding)
             .glassEffect(glass.interactive(isEnabled), in: .capsule)
+            .shadow(color: .black.opacity(0.1), radius: 8, y: 1)
             .contentShape(.capsule)
             .pointerStyle(.link)
     }
