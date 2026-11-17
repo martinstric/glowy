@@ -1,0 +1,496 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Apple Logo" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "شعار Apple"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Apple-Logo"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Apple Logo"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logotipo de Apple"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo Apple"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo Apple"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Appleロゴ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Apple 로고"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo Apple"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Apple标志"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Apple標誌"
+          }
+        }
+      }
+    },
+    "Logo is on" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "الشعار قيد التشغيل"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo ist an"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo is on"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logotipo activado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo allumé"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo allumé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "ロゴがオン"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "로고 켜짐"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Logo je zapnuté"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "标志已开启"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "標誌已開啟"
+          }
+        }
+      }
+    },
+    "Off" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "إيقاف"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Aus"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Off"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Desactivado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Désactivé"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Désactivé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "オフ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "끔"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Vypnuté"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "关闭"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "關閉"
+          }
+        }
+      }
+    },
+    "On" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "تشغيل"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "An"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "On"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Activado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Activé"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Activé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "オン"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "켬"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Zapnuté"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "开启"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "開啟"
+          }
+        }
+      }
+    },
+    "Open Glowy to finish setting up its helper." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "يرجى فتح Glowy لإكمال إعداد الأداة المساعدة."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Öffne Glowy, um die Einrichtung des Hilfsprogramms abzuschließen."
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Open Glowy to finish setting up its helper."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Abre Glowy para terminar de configurar su proceso auxiliar."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ouvrez Glowy pour terminer la configuration de son assistant."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ouvrez Glowy pour terminer la configuration de son assistant."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowyを開いて、ヘルパーの設定を完了してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "도우미 설정을 완료하려면 Glowy를 여세요."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Otvorte Glowy a dokončite nastavenie pomocného procesu."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "请打开Glowy以完成辅助程序的设置。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "請開啟Glowy以完成設定輔助程式。"
+          }
+        }
+      }
+    },
+    "Set Apple Logo" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "تعيين شعار Apple"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Apple-Logo festlegen"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Set Apple Logo"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ajustar logotipo de Apple"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Régler le logo Apple"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Régler le logo Apple"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Appleロゴを設定"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Apple 로고 설정"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Nastaviť logo Apple"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "设置Apple标志"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "設定Apple標誌"
+          }
+        }
+      }
+    },
+    "Turn the glowing Apple logo on or off." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "تشغيل شعار Apple المتوهج أو إيقافه"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Schalte das leuchtende Apple-Logo ein oder aus."
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Turn the glowing Apple logo on or off."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Enciende o apaga el brillo del logotipo de Apple."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Allumez ou éteignez le logo Apple lumineux."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Allumez ou éteignez le logo Apple lumineux."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "光るAppleロゴをオンまたはオフにします。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "빛나는 Apple 로고를 켜거나 끕니다."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Zapína alebo vypína svietiace logo Apple."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "开启或关闭发光的Apple标志。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "開啟或關閉發光的Apple標誌。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.3"
+}

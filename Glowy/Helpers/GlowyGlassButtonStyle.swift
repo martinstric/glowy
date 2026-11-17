@@ -36,6 +36,7 @@ struct GlowyGlassButtonStyle: ButtonStyle {
     
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
+            .foregroundStyle(isProminent ? .white : .primary)
             .frame(maxWidth: buttonSizing == .flexible ? .infinity : nil)
             .padding(padding)
             .glassEffect(glass.interactive(isEnabled), in: .capsule)

@@ -28,7 +28,7 @@ import ServiceManagement
                 .safeAreaPadding([.horizontal, .bottom], 24)
                 .safeAreaPadding(.top, 16)
                 .frame(width: 320, height: 340)
-                .preferredColorScheme(.dark)
+//                .preferredColorScheme(.dark)
                 .modifyWindow { window in
                     window.standardWindowButton(.miniaturizeButton)?.isHidden = true
                     window.standardWindowButton(.zoomButton)?.isHidden = true

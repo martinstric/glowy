@@ -1,0 +1,1406 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Add Glowy to Control Center" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "إضافة Glowy إلى مركز التحكم"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy zum Kontrollzentrum hinzufügen"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Add Glowy to Control Centre"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Añade Glowy al centro de control"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ajoutez Glowy au centre de contrôle"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ajouter Glowy au centre de contrôle"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowyをコントロールセンターに追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "제어 센터에 Glowy 추가하기"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Pridať Glowy do Ovládacieho centra"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "将Glowy添加到控制中心"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "將Glowy加入「控制中心」"
+          }
+        }
+      }
+    },
+    "Approve Glowy" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "الموافقة على Glowy"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy genehmigen"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Approve Glowy"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Aprobar Glowy"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Autoriser Glowy"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Autoriser Glowy"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowyを許可"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy 허용"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Povoliť Glowy"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "允许Glowy"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "允許Glowy"
+          }
+        }
+      }
+    },
+    "Approve Glowy under 'Background App Activity' in Login Items." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "يرجى الموافقة على Glowy ضمن \"نشاط التطبيقات في الخلفية\" في عناصر تسجيل الدخول."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Genehmige Glowy in den Anmeldeobjekten unter „App-Hintergrundaktivität“."
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Approve Glowy under 'Background App Activity' in Login Items."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Aprueba Glowy en “Actividad de apps en segundo plano” dentro de “Ítems de inicio”."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Autorisez Glowy sous « Activité des apps en arrière-plan » dans les éléments de connexion."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Autorisez Glowy sous « Activité des apps en arrière-plan » dans Éléments d’ouverture."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "“ログイン項目”の“アプリのバックグラウンドアクティビティ”でGlowyを許可してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "로그인 항목의 ‘앱 백그라운드 활동’에서 Glowy를 허용하세요."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Povoľte Glowy v sekcii „Aktivita apiek na pozadí“ v Prihlasovacích položkách."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "请在“登录项”的“App后台活动”中允许Glowy。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "請在「登入項目」的「App背景活動」中允許Glowy。"
+          }
+        }
+      }
+    },
+    "Approve it once. Never again." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "موافقة واحدة تكفي، ولا حاجة إلى تكرارها أبدًا."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Genehmige es einmal. Und dann nie wieder."
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Approve it once. Never again."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Apruébalo una vez. Y nunca más."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Une seule autorisation suffit. Pour de bon."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Une seule autorisation suffit. Pour de bon."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "許可は一度だけ。もう二度と求められません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "한 번만 허용하면 됩니다. 다시 할 필요는 없습니다."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Stačí raz povoliť. A už nikdy viac."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "只需允许一次，从此一劳永逸。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "只需允許一次，從此一勞永逸。"
+          }
+        }
+      }
+    },
+    "Back Light On" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "تشغيل الإضاءة الخلفية"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Rückbeleuchtung an"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Back Light On"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Luz trasera activada"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Rétroéclairage activé"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Rétroéclairage activé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "背面ライトを点灯"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "백라이트 켜기"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Zadné podsvietenie zapnuté"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "开启背光"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "開啟背光"
+          }
+        }
+      }
+    },
+    "Get Started" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "البدء"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Loslegen"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Get Started"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Empezar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Commencer"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Commencer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "はじめる"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "시작하기"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Začať"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "开始使用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "開始使用"
+          }
+        }
+      }
+    },
+    "Glow on. Or not. That’s up to you." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "التوهج أم لا؟ القرار لك."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Lass es leuchten. Oder auch nicht. Ganz wie du willst."
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glow on. Or not. That’s up to you."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Que brille. O no. Tú decides."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Que la lumière soit. Ou pas. À vous de choisir."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Que la lumière soit. Ou pas. À vous de choisir."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "光らせるのも、消すのも、思いのままです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "켜든 끄든, 선택은 자유입니다."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Svieťte. Alebo nie. Je to na vás."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "要亮，还是不亮？由你决定。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "要亮，還是不亮？由你決定。"
+          }
+        }
+      }
+    },
+    "Glowy" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy"
+          }
+        }
+      }
+    },
+    "Glowy will run in the background. Feel free to close the app." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "سيعمل Glowy في الخلفية. يمكنك إغلاق التطبيق بكل اطمئنان."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy läuft im Hintergrund weiter. Du kannst die App ruhig schließen."
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy will run in the background. Feel free to close the app."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy seguirá funcionando en segundo plano. Puedes cerrar la app tranquilamente."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy continuera de fonctionner en arrière-plan. Vous pouvez fermer l’app en toute tranquillité."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy continuera de fonctionner en arrière-plan. Vous pouvez fermer l’app sans crainte."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowyはバックグラウンドで動作します。アプリは閉じても大丈夫です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy는 백그라운드에서 실행됩니다. 앱을 닫아도 괜찮습니다."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy bude bežať na pozadí. Apku môžete pokojne zavrieť."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy会在后台运行，你可以放心关闭App。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy會在背景執行，你可以放心關閉App。"
+          }
+        }
+      }
+    },
+    "Let Glowy run in the background" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "السماح لـ Glowy بالعمل في الخلفية"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy im Hintergrund ausführen lassen"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Let Glowy run in the background"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Deja que Glowy funcione en segundo plano"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Laissez Glowy fonctionner en arrière-plan"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Laisser Glowy fonctionner en arrière-plan"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowyのバックグラウンドでの実行を許可"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy가 백그라운드에서 실행되도록 허용하기"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Povoliť Glowy bežať na pozadí"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "让Glowy在后台运行"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "讓Glowy在背景執行"
+          }
+        }
+      }
+    },
+    "Open Control Center → Edit Controls → find Glowy." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "افتح مركز التحكم ← تعديل عناصر التحكم ← ابحث عن Glowy‏."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Öffne das Kontrollzentrum → „Steuerelemente bearbeiten“ → suche Glowy."
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Open Control Centre → Edit Controls → find Glowy."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Abre el centro de control → Editar controles → busca Glowy."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ouvrez le centre de contrôle → Modifier les commandes → trouvez Glowy."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ouvrez le centre de contrôle → Modifier les commandes → repérez Glowy."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "“コントロールセンター”＞“コントロールを編集”と進み、Glowyを探してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "제어 센터 열기 → 제어 항목 편집 → Glowy 찾기"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Otvorte Ovládacie centrum → Upraviť ovládacie prvky → nájdite Glowy."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "打开“控制中心”→“编辑控制”→找到Glowy。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "開啟「控制中心」→「編輯控制項目」→找到Glowy。"
+          }
+        }
+      }
+    },
+    "Open Login Items" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "فتح عناصر تسجيل الدخول"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Anmeldeobjekte öffnen"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Open Login Items"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Abrir “Ítems de inicio”"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ouvrir les éléments de connexion"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ouvrir Éléments d’ouverture"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "“ログイン項目”を開く"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "로그인 항목 열기"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Otvoriť Prihlasovacie položky"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "打开“登录项”"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "開啟「登入項目」"
+          }
+        }
+      }
+    },
+    "Reset Helper" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "إعادة تعيين الأداة المساعدة"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Hilfsprogramm zurücksetzen"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Reset Helper"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Restablecer proceso auxiliar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Réinitialiser l’assistant"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Réinitialiser l’assistant"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "ヘルパーをリセット"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "도우미 재설정"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Resetovať pomocný proces"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "重置辅助程序"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "重置輔助程式"
+          }
+        }
+      }
+    },
+    "Show First Launch" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "عرض شاشة التشغيل الأول"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ersten Start anzeigen"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Show First Launch"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Mostrar primer inicio"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Afficher le premier lancement"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Afficher le premier lancement"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "初回起動画面を表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "첫 실행 화면 보기"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Zobraziť prvé spustenie"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "显示首次启动画面"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "顯示首次啟動畫面"
+          }
+        }
+      }
+    },
+    "The simplest way to control your glowing back light" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "أبسط طريقة للتحكم في الإضاءة الخلفية المتوهجة"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Die einfachste Art, das Leuchten auf der Rückseite deines Mac zu steuern"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "The simplest way to control your glowing back light"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "La forma más sencilla de controlar la luz trasera del Mac"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "La façon la plus simple de contrôler le rétroéclairage de votre Mac"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "La façon la plus simple de gérer le rétroéclairage de votre Mac"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "光る背面ライトを、いちばん簡単にコントロール"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Mac의 빛나는 백라이트를 가장 간단하게 제어하는 방법"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Najjednoduchší spôsob, ako ovládať žiariace zadné podsvietenie"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "控制发光背光的最简单方式"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "控制發光背光的最簡單方式"
+          }
+        }
+      }
+    },
+    "This removes Glowy and its background helper. Your logo goes back to glowing the way Apple intended." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "سيؤدي ذلك إلى إزالة Glowy والأداة المساعدة التي تعمل في الخلفية. وسيعود الشعار إلى التوهج كما أرادت Apple."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Dadurch werden Glowy und das zugehörige Hilfsprogramm im Hintergrund entfernt. Dein Logo leuchtet dann wieder so, wie Apple es vorgesehen hat."
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "This removes Glowy and its background helper. Your logo goes back to glowing the way Apple intended."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Se eliminarán Glowy y su proceso auxiliar en segundo plano. El logotipo volverá a brillar tal como Apple lo concibió."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Cette action supprime Glowy et son assistant en arrière-plan. Votre logo brillera de nouveau comme Apple l’a prévu."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Cette action supprime Glowy et son assistant en arrière-plan. Votre logo brillera de nouveau comme Apple l’a prévu."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowyとバックグラウンドヘルパーを削除します。ロゴはAppleが意図したとおりの光り方に戻ります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy와 백그라운드 도우미가 삭제됩니다. 로고는 Apple이 의도한 방식대로 다시 빛나게 됩니다."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Týmto sa odstráni Glowy spolu s pomocným procesom na pozadí. Logo bude opäť svietiť tak, ako to zamýšľala spoločnosť Apple."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "这会移除Glowy及其后台辅助程序。标志将恢复为Apple原本设计的发光方式。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "這會移除Glowy及其背景輔助程式。標誌將恢復成Apple原本設計的發光方式。"
+          }
+        }
+      }
+    },
+    "Uninstall" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "إلغاء التثبيت"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Deinstallieren"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Uninstall"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Desinstalar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Désinstaller"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Désinstaller"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "アンインストール"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "제거"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Odinštalovať"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "卸载"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "解除安裝"
+          }
+        }
+      }
+    },
+    "Uninstall Glowy?" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "هل تريد إلغاء تثبيت Glowy‏؟"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy deinstallieren?"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Uninstall Glowy?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "¿Quieres desinstalar Glowy?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Désinstaller Glowy ?"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Désinstaller Glowy?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowyをアンインストールしますか?"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy를 제거하겠습니까?"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Odinštalovať Glowy?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "要卸载Glowy吗？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "要解除安裝Glowy嗎？"
+          }
+        }
+      }
+    },
+    "Welcome to Glowy" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "مرحبًا بك في Glowy"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Willkommen bei Glowy"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Welcome to Glowy"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Te damos la bienvenida a Glowy"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Bienvenue dans Glowy"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Bienvenue dans Glowy"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowyへようこそ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Glowy 시작하기"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Vitajte v apke Glowy"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "欢迎使用Glowy"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "歡迎使用Glowy"
+          }
+        }
+      }
+    },
+    "You're all set" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "كل شيء جاهز"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Alles bereit"
+          }
+        },
+        "en-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "You're all set"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Todo listo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Tout est prêt"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Tout est prêt"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "準備完了です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "모두 준비되었습니다"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Všetko je pripravené"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "一切就绪"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "一切就緒"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.3"
+}

@@ -19,7 +19,7 @@ struct FirstLaunchView: View {
             Image(systemName: "apple.logo")
                 .font(.system(size: 108))
                 .foregroundStyle(isLogoGlowing ? .primary : .quaternary)
-                .shadow(color: .primary.opacity(isLogoGlowing ? 0.67 : 0), radius: isLogoGlowing ? 12 : 0)
+                .shadow(color: .white.opacity(isLogoGlowing ? 0.67 : 0), radius: isLogoGlowing ? 12 : 0)
                 .pointerStyle(.link)
                 .onTapGesture(perform: toggleLogoGlowing)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)

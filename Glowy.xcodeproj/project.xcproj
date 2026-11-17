@@ -8,6 +8,17 @@
     "development": "en",
     "supported": [
       "Base",
+      "ar",
+      "de",
+      "en-CA",
+      "es",
+      "fr",
+      "fr-CA",
+      "ja",
+      "ko",
+      "sk",
+      "zh-Hans",
+      "zh-Hant",
     ],
   },
   "files": [
@@ -15,6 +26,8 @@
       "kind": "group",
       "path": "Glowy",
       "children": [
+        { "path": "InfoPlist.xcstrings", "target-membership": [ "Glowy/resources" ] },
+        { "path": "Localizable.xcstrings", "target-membership": [ "Glowy/resources" ] },
         { "path": "Info.plist" },
         { "path": "GlowyApp.swift", "target-membership": [ "Glowy/compile-sources" ] },
         { "path": "SetupModel.swift", "target-membership": [ "Glowy/compile-sources" ] },
@@ -64,6 +77,8 @@
       "kind": "group",
       "path": "GlowyControl",
       "children": [
+        { "path": "InfoPlist.xcstrings", "target-membership": [ "GlowyControlExtension/resources" ] },
+        { "path": "Localizable.xcstrings", "target-membership": [ "GlowyControlExtension/resources" ] },
         { "path": "GlowyControlBundle.swift", "target-membership": [ "GlowyControlExtension/compile-sources" ] },
         { "path": "LogoToggleControl.swift", "target-membership": [ "GlowyControlExtension/compile-sources" ] },
         { "path": "Assets.xcassets", "target-membership": [ "GlowyControlExtension/resources" ] },

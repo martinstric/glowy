@@ -48,8 +48,8 @@ private struct SetupStepView<Content, ImageContent>: View where Content: View, I
     
     @Environment(\.isAnimating) private var isAnimating
     
-    var title: String
-    var description: String
+    var title: LocalizedStringKey
+    var description: LocalizedStringKey
     @ViewBuilder var content: Content
     @ViewBuilder var image: ImageContent
     
@@ -93,7 +93,7 @@ private struct LoginItemSetupStepView: View {
     
     @State private var isRegisteringHelper = false
     
-    private var description: String {
+    private var description: LocalizedStringKey {
         if isRegisteringHelper {
             "Approve Glowy under 'Background App Activity' in Login Items."
         } else {
