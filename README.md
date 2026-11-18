@@ -1,6 +1,6 @@
 # Glowy
 
-Control the glowing Apple logo on your new MacBook Pro, right from Control Center.
+Control the glowing Apple logo on your new MacBook Pro, right from Control Center. No extra menu bar icon.
 
 <!-- Add media -->
 
@@ -8,7 +8,7 @@ Control the glowing Apple logo on your new MacBook Pro, right from Control Cente
 
 ## Features
 
-- **Logo Glow in Control Center.** Turn the logo's glow on or off with one click. Like any control, you can also drag it onto your menu bar.
+- **Logo Glow in Control Center.** Turn the logo's glow on or off with one click, without adding another icon to your crowded menu bar. Want one-click access anyway? Drag the control onto your menu bar.
 - **Guided setup.** Two quick steps, and Glowy checks each one off by itself as you go.
 - **No password prompts.** Approve Glowy once, and every toggle after that just works.
 - **Clean uninstall.** One button restores Apple's default glow, removes Glowy's helper, and moves the app to the Trash.
